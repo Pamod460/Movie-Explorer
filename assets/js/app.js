@@ -164,7 +164,7 @@ function renderHero(movies) {
         wrapper.className = colClass;
 
         const card = document.createElement('div');
-        card.className = 'hero-card h-100 d-flex align-items-end p-4 rounded-4 position-relative overflow-hidden shadow-lg';
+        card.className = 'hero-card  d-flex align-items-end p-4 rounded-4 position-relative overflow-hidden shadow-lg';
         card.style.transition = 'transform 0.3s ease';
 
         // Add hover effect via JS or keep in CSS. Let's keep specific hover in CSS or add inline
